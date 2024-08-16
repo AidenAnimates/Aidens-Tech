@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "texture0mosin",
+        "1": "texture1mosin"
+      },
+      "name": "default"
+    }
+  }
+}

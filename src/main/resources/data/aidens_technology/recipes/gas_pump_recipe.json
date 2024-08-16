@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "bdb",
+    "eba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stone"
+    },
+    "b": {
+      "item": "aidens_technology:steel_ingot"
+    },
+    "c": {
+      "item": "minecraft:piston"
+    },
+    "d": {
+      "item": "minecraft:hopper"
+    },
+    "e": {
+      "item": "minecraft:stone_slab"
+    }
+  },
+  "result": {
+    "id": "aidens_technology:gas_pump",
+    "count": 1
+  }
+}

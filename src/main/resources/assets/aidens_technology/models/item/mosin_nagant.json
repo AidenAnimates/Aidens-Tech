@@ -1,0 +1,8 @@
+{
+  "parent": "aidens_technology:custom/mosin-nagant",
+  "textures": {
+    "0": "aidens_technology:block/texture0mosin",
+    "1": "aidens_technology:block/texture1mosin",
+    "particle": "aidens_technology:item/shittymosin"
+  }
+}

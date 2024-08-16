@@ -1,0 +1,30 @@
+{
+  "_fv": 66,
+  "_type": "structure",
+  "definition": {
+    "structure": "oil_pool",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      {
+        "value": "Blocks.STRUCTURE_BLOCK"
+      }
+    ],
+    "spacing": 6,
+    "separation": 3,
+    "restrictionBiomes": [
+      {
+        "value": "deep_lukewarm_ocean"
+      }
+    ],
+    "terrainAdaptation": "bury",
+    "generationStep": "STRONGHOLDS",
+    "surfaceDetectionType": "OCEAN_FLOOR",
+    "useStartHeight": true,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 8,
+    "startHeightMax": 30,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}

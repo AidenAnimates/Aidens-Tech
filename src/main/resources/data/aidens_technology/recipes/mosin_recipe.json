@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "cb "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:oak_planks"
+    },
+    "b": {
+      "item": "aidens_technology:steel_ingot"
+    },
+    "c": {
+      "item": "minecraft:stripped_oak_log"
+    }
+  },
+  "result": {
+    "id": "aidens_technology:mosin_nagant",
+    "count": 1
+  }
+}

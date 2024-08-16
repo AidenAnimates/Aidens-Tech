@@ -1,0 +1,667 @@
+{
+  "mod_elements": [
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aidens_technology/models/item/steel_ingot.json",
+          "src/main/java/net/mcreator/aidenstechnology/item/SteelIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelDust",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aidens_technology/models/item/steel_dust.json",
+          "src/main/java/net/mcreator/aidenstechnology/item/SteelDustItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SteelIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aidens_technology/recipes/steel_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SteelDustRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_dust_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aidens_technology/recipes/steel_dust_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NosinBulletItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nosin_bullet_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aidens_technology/models/item/nosin_bullet_item.json",
+          "src/main/java/net/mcreator/aidenstechnology/item/NosinBulletItemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Nosinbullet",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nosinbullet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aidenstechnology/entity/NosinbulletEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "MosinNagant",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mosin_nagant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aidenstechnology/item/MosinNagantItem.java",
+          "src/main/resources/assets/aidens_technology/models/item/mosin_nagant.json"
+        ]
+      }
+    },
+    {
+      "name": "MosinBulletRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mosin_bullet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aidens_technology/recipes/mosin_bullet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LeadIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aidens_technology/models/item/lead_ingot.json",
+          "src/main/java/net/mcreator/aidenstechnology/item/LeadIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RawLead",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_lead",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aidens_technology/models/item/raw_lead.json",
+          "src/main/java/net/mcreator/aidenstechnology/item/RawLeadItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LeadOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aidens_technology/neoforge/biome_modifier/lead_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/aidenstechnology/block/LeadOreBlock.java",
+          "src/main/resources/assets/aidens_technology/blockstates/lead_ore.json",
+          "src/main/resources/assets/aidens_technology/models/block/lead_ore.json",
+          "src/main/resources/data/aidens_technology/worldgen/configured_feature/lead_ore.json",
+          "src/main/resources/data/aidens_technology/worldgen/placed_feature/lead_ore.json",
+          "src/main/resources/assets/aidens_technology/models/item/lead_ore.json",
+          "src/main/resources/data/aidens_technology/loot_tables/blocks/lead_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "LeadIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aidens_technology/recipes/lead_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MosinNagantRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mosin_nagant_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aidenstechnology/procedures/MosinNagantRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReloadOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reload_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aidenstechnology/procedures/ReloadOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Reload",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reload",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aidenstechnology/network/ReloadMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "MosinRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mosin_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aidens_technology/recipes/mosin_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aidens_technology/models/item/copper_nugget.json",
+          "src/main/java/net/mcreator/aidenstechnology/item/CopperNuggetItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LeadNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aidens_technology/models/item/lead_nugget.json",
+          "src/main/java/net/mcreator/aidenstechnology/item/LeadNuggetItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperNuggetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_nugget_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aidens_technology/recipes/copper_nugget_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LeadNuggetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_nugget_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aidens_technology/recipes/lead_nugget_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperSecondRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_second_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aidens_technology/recipes/copper_second_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LeadSecondRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_second_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aidens_technology/recipes/lead_second_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "M16",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_16",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aidenstechnology/item/M16Item.java",
+          "src/main/resources/assets/aidens_technology/models/item/m_16.json"
+        ]
+      }
+    },
+    {
+      "name": "M16BulletItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_16_bullet_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aidens_technology/models/item/m_16_bullet_item.json",
+          "src/main/java/net/mcreator/aidenstechnology/item/M16BulletItemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "M16Bullet",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_16_bullet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aidenstechnology/entity/M16BulletEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "M16Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_16_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aidens_technology/recipes/m_16_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "M16BulletRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_16_bullet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aidens_technology/recipes/m_16_bullet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Jetpack",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jetpack",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aidens_technology/models/item/jetpack_chestplate.json",
+          "src/main/java/net/mcreator/aidenstechnology/item/JetpackItem.java"
+        ]
+      }
+    },
+    {
+      "name": "JetpackUseOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jetpack_use_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aidenstechnology/procedures/JetpackUseOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JetpackUseOnKeyReleased",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jetpack_use_on_key_released",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aidenstechnology/procedures/JetpackUseOnKeyReleasedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JetpackChestplateTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jetpack_chestplate_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aidenstechnology/procedures/JetpackChestplateTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JetpackUse",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jetpack_use",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aidenstechnology/network/JetpackUseMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "FuelCan",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel_can",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aidenstechnology/item/FuelCanItem.java",
+          "src/main/resources/assets/aidens_technology/models/item/fuel_can.json"
+        ]
+      }
+    },
+    {
+      "name": "Oil",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aidenstechnology/fluid/OilFluid.java",
+          "src/main/java/net/mcreator/aidenstechnology/block/OilBlock.java",
+          "src/main/java/net/mcreator/aidenstechnology/fluid/types/OilFluidType.java",
+          "src/main/resources/assets/aidens_technology/models/item/oil_bucket.json",
+          "src/main/resources/assets/aidens_technology/blockstates/oil.json",
+          "src/main/resources/assets/aidens_technology/models/block/oil.json",
+          "src/main/java/net/mcreator/aidenstechnology/item/OilItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OilPool",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oil_pool",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aidens_technology/worldgen/template_pool/oil_pool.json",
+          "src/main/resources/data/aidens_technology/worldgen/structure_set/oil_pool.json",
+          "src/main/resources/data/aidens_technology/worldgen/structure/oil_pool.json"
+        ]
+      }
+    },
+    {
+      "name": "FillTank",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fill_tank",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aidens_technology/recipes/fill_tank.json"
+        ]
+      }
+    },
+    {
+      "name": "PumpProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pump_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aidenstechnology/procedures/PumpProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GasPumpGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_pump_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aidenstechnology/world/inventory/GasPumpGUIMenu.java",
+          "src/main/java/net/mcreator/aidenstechnology/network/GasPumpGUIButtonMessage.java",
+          "src/main/java/net/mcreator/aidenstechnology/client/gui/GasPumpGUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "GasPump",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_pump",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aidens_technology/models/item/gas_pump.json",
+          "src/main/java/net/mcreator/aidenstechnology/block/GasPumpBlock.java",
+          "src/main/resources/data/aidens_technology/loot_tables/blocks/gas_pump.json",
+          "src/main/resources/assets/aidens_technology/blockstates/gas_pump.json",
+          "src/main/resources/assets/aidens_technology/models/block/gas_pump.json",
+          "src/main/java/net/mcreator/aidenstechnology/block/entity/GasPumpBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "GasPumpRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_pump_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aidens_technology/recipes/gas_pump_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "JetpackRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jetpack_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aidens_technology/recipes/jetpack_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:Jetpack.body"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Oil"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:GasPump",
+      "~CUSTOM:LeadOre"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:LeadOre"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.aidens_technology.raw_lead": "Raw Lead",
+      "item.aidens_technology.copper_nugget": "Copper Nugget",
+      "block.aidens_technology.oil": "Oil",
+      "item.anims_technology.mosin_nagant": "Mosin-Nagant",
+      "item.aidens_technology.steel_dust": "Steel Dust",
+      "item.aidens_technology.jetpack_chestplate": "Jetpack",
+      "item.anims_technology.nosin_bullet_item": "7.62x54mmR",
+      "item.anims_technology.raw_lead": "Raw Lead",
+      "block.aidens_technology.gas_pump": "Gas Pump",
+      "item.aidens_technology.oil_bucket": "Oil Bucket",
+      "item.aidens_technology.m_16": "M16",
+      "item.aidens_technology.fuel_can": "Fuel Can",
+      "item.anims_technology.steel_dust": "Steel Dust",
+      "item.anims_technology.steel_ingot": "Steel Ingot",
+      "item.aidens_technology.lead_ingot": "Lead Ingot",
+      "key.anims_technology.reload": "Reload",
+      "gui.aidens_technology.gas_pump_gui.button_pump": "Pump",
+      "item.aidens_technology.steel_ingot": "Steel Ingot",
+      "block.aidens_technology.lead_ore": "Lead Ore",
+      "key.aidens_technology.reload": "Reload",
+      "gui.aidens_technology.gas_pump_gui.label_gas_pump": "Gas Pump",
+      "block.anims_technology.lead_ore": "Lead Ore",
+      "fluid.aidens_technology.oil": "Oil",
+      "gui.aidens_technology.gas_pump_gui.label_empty": "\u003e",
+      "key.aidens_technology.jetpack_use": "Jetpack Use",
+      "item.anims_technology.lead_ingot": "Lead Ingot",
+      "item.aidens_technology.nosin_bullet_item": "7.62x54mmR",
+      "item.aidens_technology.m_16_bullet_item": "5.56x45mm NATO",
+      "item.aidens_technology.mosin_nagant": "Mosin-Nagant",
+      "item.aidens_technology.lead_nugget": "Copper Nugget"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "aidens_technology",
+    "modName": "Aiden\u0027s Tech",
+    "version": "1.0.0",
+    "description": "Guns n\u0027 stuff, man.",
+    "author": "aidenanimates",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.6",
+    "credits": "|| Made by AidenAnimates ||",
+    "modElementsPackage": "net.mcreator.aidenstechnology"
+  },
+  "mcreatorVersion": 202400228714
+}

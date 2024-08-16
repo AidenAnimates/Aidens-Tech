@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "aidens_technology:steel_ingot"
+    },
+    "b": {
+      "item": "aidens_technology:oil_bucket"
+    }
+  },
+  "result": {
+    "id": "aidens_technology:fuel_can",
+    "count": 1
+  }
+}

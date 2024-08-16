@@ -1,0 +1,15 @@
+{
+  "_fv": 66,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "SPACE",
+    "keyBindingName": "Jetpack Use",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "JetpackUseOnKeyPressed"
+    },
+    "onKeyReleased": {
+      "name": "JetpackUseOnKeyReleased"
+    }
+  }
+}

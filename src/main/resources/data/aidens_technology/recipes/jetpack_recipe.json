@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bcb",
+    "d d"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:hopper"
+    },
+    "b": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "c": {
+      "item": "aidens_technology:steel_ingot"
+    },
+    "d": {
+      "item": "minecraft:bucket"
+    }
+  },
+  "result": {
+    "id": "aidens_technology:jetpack_chestplate",
+    "count": 1
+  }
+}
