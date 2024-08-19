@@ -3,6 +3,6 @@
   "textures": {
     "0": "aidens_technology:block/texture2",
     "1": "aidens_technology:block/texture1",
-    "particle": "aidens_technology:item/shittymosin"
+    "particle": "aidens_technology:item/mosin_missing_model"
   }
 }

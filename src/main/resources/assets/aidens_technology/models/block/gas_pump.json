@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "minecraft:block/stonecutter_bottom",
+    "down": "aidens_technology:block/gaspumpbottom",
     "up": "aidens_technology:block/top_gas_pump",
-    "north": "minecraft:block/crafter_north_crafting",
-    "east": "minecraft:block/stonecutter_bottom",
-    "south": "minecraft:block/stonecutter_bottom",
-    "west": "minecraft:block/stonecutter_bottom",
-    "particle": "minecraft:block/stonecutter_bottom"
+    "north": "aidens_technology:block/gaspumpfront",
+    "east": "aidens_technology:block/gaspumpsides",
+    "south": "aidens_technology:block/gaspumpsides",
+    "west": "aidens_technology:block/gaspumpsides",
+    "particle": "aidens_technology:block/gaspumpbottom"
   },
   "render_type": "solid"
 }

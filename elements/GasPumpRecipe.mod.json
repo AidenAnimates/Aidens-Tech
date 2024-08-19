@@ -15,25 +15,25 @@
         "value": "Blocks.STONE#0"
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": ""
       },
       {
         "value": "Blocks.PISTON"
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": "Blocks.NORMAL_STONE_SLAB"
       },
       {
         "value": "Blocks.HOPPER"
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": "Blocks.STONE#0"
       },
       {
-        "value": "Blocks.NORMAL_STONE_SLAB"
+        "value": "CUSTOM:FuelCan"
       },
       {
-        "value": "CUSTOM:SteelIngot"
+        "value": "Blocks.STONE#0"
       },
       {
         "value": "Blocks.STONE#0"

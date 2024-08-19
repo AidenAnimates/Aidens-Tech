@@ -2,12 +2,12 @@
   "_fv": 66,
   "_type": "block",
   "definition": {
-    "texture": "minecraft:stonecutter_bottom",
+    "texture": "gaspumpbottom",
     "textureTop": "top_gas_pump",
-    "textureLeft": "minecraft:stonecutter_bottom",
-    "textureFront": "minecraft:crafter_north_crafting",
-    "textureRight": "minecraft:stonecutter_bottom",
-    "textureBack": "minecraft:stonecutter_bottom",
+    "textureLeft": "gaspumpsides",
+    "textureFront": "gaspumpfront",
+    "textureRight": "gaspumpsides",
+    "textureBack": "gaspumpsides",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 1,
@@ -67,7 +67,7 @@
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "IRON",
+    "colorOnMap": "STONE",
     "creativePickItem": {
       "value": ""
     },

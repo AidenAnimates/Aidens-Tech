@@ -620,8 +620,8 @@
       "item.anims_technology.nosin_bullet_item": "7.62x54mmR",
       "item.anims_technology.raw_lead": "Raw Lead",
       "block.aidens_technology.gas_pump": "Gas Pump",
-      "item.aidens_technology.oil_bucket": "Oil Bucket",
       "item.aidens_technology.m_16": "M16",
+      "item.aidens_technology.oil_bucket": "Oil Bucket",
       "item.aidens_technology.fuel_can": "Fuel Can",
       "item.anims_technology.steel_dust": "Steel Dust",
       "item.anims_technology.steel_ingot": "Steel Ingot",
@@ -640,7 +640,7 @@
       "item.aidens_technology.nosin_bullet_item": "7.62x54mmR",
       "item.aidens_technology.m_16_bullet_item": "5.56x45mm NATO",
       "item.aidens_technology.mosin_nagant": "Mosin-Nagant",
-      "item.aidens_technology.lead_nugget": "Copper Nugget"
+      "item.aidens_technology.lead_nugget": "Lead Nugget"
     }
   },
   "foldersRoot": {
@@ -650,9 +650,10 @@
   "workspaceSettings": {
     "modid": "aidens_technology",
     "modName": "Aiden\u0027s Tech",
-    "version": "1.0.0",
+    "version": "1.0.1A",
     "description": "Guns n\u0027 stuff, man.",
     "author": "aidenanimates",
+    "websiteURL": "https://mcreator.net",
     "license": "GNU General Public License version 3 (GPLv3)",
     "serverSideOnly": false,
     "requiredMods": [],

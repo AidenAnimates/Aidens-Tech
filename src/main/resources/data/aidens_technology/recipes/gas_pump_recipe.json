@@ -2,25 +2,25 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "abc",
-    "bdb",
-    "eba"
+    "a b",
+    "cda",
+    "eaa"
   ],
   "key": {
     "a": {
       "item": "minecraft:stone"
     },
     "b": {
-      "item": "aidens_technology:steel_ingot"
+      "item": "minecraft:piston"
     },
     "c": {
-      "item": "minecraft:piston"
+      "item": "minecraft:stone_slab"
     },
     "d": {
       "item": "minecraft:hopper"
     },
     "e": {
-      "item": "minecraft:stone_slab"
+      "item": "aidens_technology:fuel_can"
     }
   },
   "result": {

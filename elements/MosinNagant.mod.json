@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 1,
-    "texture": "shittymosin",
+    "texture": "mosin_missing_model",
     "customModelName": "mosin-nagant:default",
     "customProperties": {},
     "states": [],
