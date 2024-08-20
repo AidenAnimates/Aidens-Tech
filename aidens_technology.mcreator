@@ -11,7 +11,8 @@
           "src/main/resources/assets/aidens_technology/models/item/steel_ingot.json",
           "src/main/java/net/mcreator/aidenstechnology/item/SteelIngotItem.java"
         ]
-      }
+      },
+      "path": "~/Misc"
     },
     {
       "name": "SteelDust",
@@ -24,7 +25,8 @@
           "src/main/resources/assets/aidens_technology/models/item/steel_dust.json",
           "src/main/java/net/mcreator/aidenstechnology/item/SteelDustItem.java"
         ]
-      }
+      },
+      "path": "~/Misc"
     },
     {
       "name": "SteelIngotRecipe",
@@ -36,7 +38,8 @@
         "files": [
           "src/main/resources/data/aidens_technology/recipes/steel_ingot_recipe.json"
         ]
-      }
+      },
+      "path": "~/Misc"
     },
     {
       "name": "SteelDustRecipe",
@@ -48,7 +51,8 @@
         "files": [
           "src/main/resources/data/aidens_technology/recipes/steel_dust_recipe.json"
         ]
-      }
+      },
+      "path": "~/Misc"
     },
     {
       "name": "NosinBulletItem",
@@ -61,7 +65,8 @@
           "src/main/resources/assets/aidens_technology/models/item/nosin_bullet_item.json",
           "src/main/java/net/mcreator/aidenstechnology/item/NosinBulletItemItem.java"
         ]
-      }
+      },
+      "path": "~/Guns/Mosin"
     },
     {
       "name": "Nosinbullet",
@@ -73,7 +78,8 @@
         "files": [
           "src/main/java/net/mcreator/aidenstechnology/entity/NosinbulletEntity.java"
         ]
-      }
+      },
+      "path": "~/Guns/Mosin"
     },
     {
       "name": "MosinNagant",
@@ -86,7 +92,8 @@
           "src/main/java/net/mcreator/aidenstechnology/item/MosinNagantItem.java",
           "src/main/resources/assets/aidens_technology/models/item/mosin_nagant.json"
         ]
-      }
+      },
+      "path": "~/Guns/Mosin"
     },
     {
       "name": "MosinBulletRecipe",
@@ -98,7 +105,8 @@
         "files": [
           "src/main/resources/data/aidens_technology/recipes/mosin_bullet_recipe.json"
         ]
-      }
+      },
+      "path": "~/Guns/Mosin"
     },
     {
       "name": "LeadIngot",
@@ -111,7 +119,8 @@
           "src/main/resources/assets/aidens_technology/models/item/lead_ingot.json",
           "src/main/java/net/mcreator/aidenstechnology/item/LeadIngotItem.java"
         ]
-      }
+      },
+      "path": "~/Misc"
     },
     {
       "name": "RawLead",
@@ -124,7 +133,8 @@
           "src/main/resources/assets/aidens_technology/models/item/raw_lead.json",
           "src/main/java/net/mcreator/aidenstechnology/item/RawLeadItem.java"
         ]
-      }
+      },
+      "path": "~/Misc"
     },
     {
       "name": "LeadOre",
@@ -143,7 +153,8 @@
           "src/main/resources/assets/aidens_technology/models/item/lead_ore.json",
           "src/main/resources/data/aidens_technology/loot_tables/blocks/lead_ore.json"
         ]
-      }
+      },
+      "path": "~/Misc"
     },
     {
       "name": "LeadIngotRecipe",
@@ -155,7 +166,8 @@
         "files": [
           "src/main/resources/data/aidens_technology/recipes/lead_ingot_recipe.json"
         ]
-      }
+      },
+      "path": "~/Misc"
     },
     {
       "name": "MosinNagantRightclicked",
@@ -193,7 +205,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Guns/Mosin"
     },
     {
       "name": "ReloadOnKeyPressed",
@@ -215,7 +228,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Guns"
     },
     {
       "name": "Reload",
@@ -227,7 +241,8 @@
         "files": [
           "src/main/java/net/mcreator/aidenstechnology/network/ReloadMessage.java"
         ]
-      }
+      },
+      "path": "~/Guns"
     },
     {
       "name": "MosinRecipe",
@@ -239,7 +254,8 @@
         "files": [
           "src/main/resources/data/aidens_technology/recipes/mosin_recipe.json"
         ]
-      }
+      },
+      "path": "~/Guns/Mosin"
     },
     {
       "name": "CopperNugget",
@@ -252,7 +268,8 @@
           "src/main/resources/assets/aidens_technology/models/item/copper_nugget.json",
           "src/main/java/net/mcreator/aidenstechnology/item/CopperNuggetItem.java"
         ]
-      }
+      },
+      "path": "~/Misc"
     },
     {
       "name": "LeadNugget",
@@ -265,7 +282,8 @@
           "src/main/resources/assets/aidens_technology/models/item/lead_nugget.json",
           "src/main/java/net/mcreator/aidenstechnology/item/LeadNuggetItem.java"
         ]
-      }
+      },
+      "path": "~/Misc"
     },
     {
       "name": "CopperNuggetRecipe",
@@ -277,7 +295,8 @@
         "files": [
           "src/main/resources/data/aidens_technology/recipes/copper_nugget_recipe.json"
         ]
-      }
+      },
+      "path": "~/Misc"
     },
     {
       "name": "LeadNuggetRecipe",
@@ -289,7 +308,8 @@
         "files": [
           "src/main/resources/data/aidens_technology/recipes/lead_nugget_recipe.json"
         ]
-      }
+      },
+      "path": "~/Misc"
     },
     {
       "name": "CopperSecondRecipe",
@@ -301,7 +321,8 @@
         "files": [
           "src/main/resources/data/aidens_technology/recipes/copper_second_recipe.json"
         ]
-      }
+      },
+      "path": "~/Misc"
     },
     {
       "name": "LeadSecondRecipe",
@@ -313,7 +334,8 @@
         "files": [
           "src/main/resources/data/aidens_technology/recipes/lead_second_recipe.json"
         ]
-      }
+      },
+      "path": "~/Misc"
     },
     {
       "name": "M16",
@@ -326,7 +348,8 @@
           "src/main/java/net/mcreator/aidenstechnology/item/M16Item.java",
           "src/main/resources/assets/aidens_technology/models/item/m_16.json"
         ]
-      }
+      },
+      "path": "~/Guns/M16"
     },
     {
       "name": "M16BulletItem",
@@ -339,7 +362,8 @@
           "src/main/resources/assets/aidens_technology/models/item/m_16_bullet_item.json",
           "src/main/java/net/mcreator/aidenstechnology/item/M16BulletItemItem.java"
         ]
-      }
+      },
+      "path": "~/Guns/M16"
     },
     {
       "name": "M16Bullet",
@@ -351,7 +375,8 @@
         "files": [
           "src/main/java/net/mcreator/aidenstechnology/entity/M16BulletEntity.java"
         ]
-      }
+      },
+      "path": "~/Guns/M16"
     },
     {
       "name": "M16Recipe",
@@ -363,7 +388,8 @@
         "files": [
           "src/main/resources/data/aidens_technology/recipes/m_16_recipe.json"
         ]
-      }
+      },
+      "path": "~/Guns/M16"
     },
     {
       "name": "M16BulletRecipe",
@@ -375,7 +401,8 @@
         "files": [
           "src/main/resources/data/aidens_technology/recipes/m_16_bullet_recipe.json"
         ]
-      }
+      },
+      "path": "~/Guns/M16"
     },
     {
       "name": "Jetpack",
@@ -388,7 +415,8 @@
           "src/main/resources/assets/aidens_technology/models/item/jetpack_chestplate.json",
           "src/main/java/net/mcreator/aidenstechnology/item/JetpackItem.java"
         ]
-      }
+      },
+      "path": "~/Machines/Jetpack"
     },
     {
       "name": "JetpackUseOnKeyPressed",
@@ -406,7 +434,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Machines/Jetpack"
     },
     {
       "name": "JetpackUseOnKeyReleased",
@@ -424,7 +453,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Machines/Jetpack"
     },
     {
       "name": "JetpackChestplateTickEvent",
@@ -446,7 +476,8 @@
             "type": "itemstack"
           }
         ]
-      }
+      },
+      "path": "~/Machines/Jetpack"
     },
     {
       "name": "JetpackUse",
@@ -458,7 +489,8 @@
         "files": [
           "src/main/java/net/mcreator/aidenstechnology/network/JetpackUseMessage.java"
         ]
-      }
+      },
+      "path": "~/Machines/Jetpack"
     },
     {
       "name": "FuelCan",
@@ -471,7 +503,8 @@
           "src/main/java/net/mcreator/aidenstechnology/item/FuelCanItem.java",
           "src/main/resources/assets/aidens_technology/models/item/fuel_can.json"
         ]
-      }
+      },
+      "path": "~/Machines"
     },
     {
       "name": "Oil",
@@ -489,7 +522,8 @@
           "src/main/resources/assets/aidens_technology/models/block/oil.json",
           "src/main/java/net/mcreator/aidenstechnology/item/OilItem.java"
         ]
-      }
+      },
+      "path": "~/Machines"
     },
     {
       "name": "OilPool",
@@ -503,7 +537,8 @@
           "src/main/resources/data/aidens_technology/worldgen/structure_set/oil_pool.json",
           "src/main/resources/data/aidens_technology/worldgen/structure/oil_pool.json"
         ]
-      }
+      },
+      "path": "~/Machines"
     },
     {
       "name": "FillTank",
@@ -515,7 +550,8 @@
         "files": [
           "src/main/resources/data/aidens_technology/recipes/fill_tank.json"
         ]
-      }
+      },
+      "path": "~/Machines"
     },
     {
       "name": "PumpProcedure",
@@ -533,7 +569,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Machines/Gas Pump"
     },
     {
       "name": "GasPumpGUI",
@@ -547,7 +584,8 @@
           "src/main/java/net/mcreator/aidenstechnology/network/GasPumpGUIButtonMessage.java",
           "src/main/java/net/mcreator/aidenstechnology/client/gui/GasPumpGUIScreen.java"
         ]
-      }
+      },
+      "path": "~/Machines/Gas Pump"
     },
     {
       "name": "GasPump",
@@ -564,7 +602,8 @@
           "src/main/resources/assets/aidens_technology/models/block/gas_pump.json",
           "src/main/java/net/mcreator/aidenstechnology/block/entity/GasPumpBlockEntity.java"
         ]
-      }
+      },
+      "path": "~/Machines/Gas Pump"
     },
     {
       "name": "GasPumpRecipe",
@@ -576,7 +615,8 @@
         "files": [
           "src/main/resources/data/aidens_technology/recipes/gas_pump_recipe.json"
         ]
-      }
+      },
+      "path": "~/Machines/Gas Pump"
     },
     {
       "name": "JetpackRecipe",
@@ -588,7 +628,50 @@
         "files": [
           "src/main/resources/data/aidens_technology/recipes/jetpack_recipe.json"
         ]
-      }
+      },
+      "path": "~/Machines/Jetpack"
+    },
+    {
+      "name": "LeatherBackpackGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leather_backpack_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aidenstechnology/world/inventory/LeatherBackpackGUIMenu.java",
+          "src/main/java/net/mcreator/aidenstechnology/client/gui/LeatherBackpackGUIScreen.java"
+        ]
+      },
+      "path": "~/Backpacks/Leather"
+    },
+    {
+      "name": "LeatherBackpack",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leather_backpack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aidenstechnology/item/inventory/LeatherBackpackInventoryCapability.java",
+          "src/main/java/net/mcreator/aidenstechnology/item/LeatherBackpackItem.java",
+          "src/main/resources/assets/aidens_technology/models/item/leather_backpack.json"
+        ]
+      },
+      "path": "~/Backpacks/Leather"
+    },
+    {
+      "name": "LeatherBackpackRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leather_backpack_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aidens_technology/recipes/leather_backpack_recipe.json"
+        ]
+      },
+      "path": "~/Backpacks/Leather"
     }
   ],
   "variable_elements": [],
@@ -616,6 +699,7 @@
       "block.aidens_technology.oil": "Oil",
       "item.anims_technology.mosin_nagant": "Mosin-Nagant",
       "item.aidens_technology.steel_dust": "Steel Dust",
+      "gui.aidens_technology.leather_backpack_gui.label_backpack": "Backpack",
       "item.aidens_technology.jetpack_chestplate": "Jetpack",
       "item.anims_technology.nosin_bullet_item": "7.62x54mmR",
       "item.anims_technology.raw_lead": "Raw Lead",
@@ -634,6 +718,7 @@
       "gui.aidens_technology.gas_pump_gui.label_gas_pump": "Gas Pump",
       "block.anims_technology.lead_ore": "Lead Ore",
       "fluid.aidens_technology.oil": "Oil",
+      "item.aidens_technology.leather_backpack": "Leather Backpack",
       "gui.aidens_technology.gas_pump_gui.label_empty": "\u003e",
       "key.aidens_technology.jetpack_use": "Jetpack Use",
       "item.anims_technology.lead_ingot": "Lead Ingot",
@@ -645,12 +730,56 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Misc",
+        "children": []
+      },
+      {
+        "name": "Guns",
+        "children": [
+          {
+            "name": "Mosin",
+            "children": []
+          },
+          {
+            "name": "M16",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "children": []
+      },
+      {
+        "name": "Machines",
+        "children": [
+          {
+            "name": "Jetpack",
+            "children": []
+          },
+          {
+            "name": "Gas Pump",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Backpacks",
+        "children": [
+          {
+            "name": "Leather",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "aidens_technology",
     "modName": "Aiden\u0027s Tech",
-    "version": "1.0.1A",
+    "version": "1.1.0A",
     "description": "Guns n\u0027 stuff, man.",
     "author": "aidenanimates",
     "websiteURL": "https://mcreator.net",
