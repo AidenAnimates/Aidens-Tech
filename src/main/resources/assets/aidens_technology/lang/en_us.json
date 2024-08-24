@@ -1,4 +1,5 @@
 {
+  "item.aidens_technology.reinforced_backpack": "Reinforced Backpack",
   "item.aidens_technology.raw_lead": "Raw Lead",
   "item.aidens_technology.copper_nugget": "Copper Nugget",
   "block.aidens_technology.oil": "Oil",
@@ -11,6 +12,7 @@
   "block.aidens_technology.gas_pump": "Gas Pump",
   "item.aidens_technology.m_16": "M16",
   "item.aidens_technology.oil_bucket": "Oil Bucket",
+  "gui.aidens_technology.reinforced_backpack_gui.label_backpack": "Backpack",
   "item.aidens_technology.fuel_can": "Fuel Can",
   "item.anims_technology.steel_dust": "Steel Dust",
   "item.anims_technology.steel_ingot": "Steel Ingot",

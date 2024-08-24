@@ -25,7 +25,7 @@ import java.util.HashMap;
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public record GasPumpGUIButtonMessage(int buttonID, int x, int y, int z) implements CustomPacketPayload {
 
-	public static final Type<GasPumpGUIButtonMessage> TYPE = new Type<>(new ResourceLocation(AidensTechnologyMod.MODID, "gas_pump_gui_buttons"));
+	public static final Type<GasPumpGUIButtonMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(AidensTechnologyMod.MODID, "gas_pump_gui_buttons"));
 	public static final StreamCodec<RegistryFriendlyByteBuf, GasPumpGUIButtonMessage> STREAM_CODEC = StreamCodec.of((RegistryFriendlyByteBuf buffer, GasPumpGUIButtonMessage message) -> {
 		buffer.writeInt(message.buttonID);
 		buffer.writeInt(message.x);

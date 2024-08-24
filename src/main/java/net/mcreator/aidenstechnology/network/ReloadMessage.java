@@ -20,7 +20,7 @@ import net.mcreator.aidenstechnology.AidensTechnologyMod;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public record ReloadMessage(int eventType, int pressedms) implements CustomPacketPayload {
-	public static final Type<ReloadMessage> TYPE = new Type<>(new ResourceLocation(AidensTechnologyMod.MODID, "key_reload"));
+	public static final Type<ReloadMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(AidensTechnologyMod.MODID, "key_reload"));
 	public static final StreamCodec<RegistryFriendlyByteBuf, ReloadMessage> STREAM_CODEC = StreamCodec.of((RegistryFriendlyByteBuf buffer, ReloadMessage message) -> {
 		buffer.writeInt(message.eventType);
 		buffer.writeInt(message.pressedms);

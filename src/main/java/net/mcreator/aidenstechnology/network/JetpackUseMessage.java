@@ -21,7 +21,7 @@ import net.mcreator.aidenstechnology.AidensTechnologyMod;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public record JetpackUseMessage(int eventType, int pressedms) implements CustomPacketPayload {
-	public static final Type<JetpackUseMessage> TYPE = new Type<>(new ResourceLocation(AidensTechnologyMod.MODID, "key_jetpack_use"));
+	public static final Type<JetpackUseMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(AidensTechnologyMod.MODID, "key_jetpack_use"));
 	public static final StreamCodec<RegistryFriendlyByteBuf, JetpackUseMessage> STREAM_CODEC = StreamCodec.of((RegistryFriendlyByteBuf buffer, JetpackUseMessage message) -> {
 		buffer.writeInt(message.eventType);
 		buffer.writeInt(message.pressedms);

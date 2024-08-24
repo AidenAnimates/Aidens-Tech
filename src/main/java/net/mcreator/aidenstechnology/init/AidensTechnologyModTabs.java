@@ -38,6 +38,7 @@ public class AidensTechnologyModTabs {
 			tabData.accept(AidensTechnologyModItems.FUEL_CAN.get());
 			tabData.accept(AidensTechnologyModBlocks.GAS_PUMP.get().asItem());
 			tabData.accept(AidensTechnologyModItems.LEATHER_BACKPACK.get());
+			tabData.accept(AidensTechnologyModItems.REINFORCED_BACKPACK.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(AidensTechnologyModBlocks.LEAD_ORE.get().asItem());
 		}

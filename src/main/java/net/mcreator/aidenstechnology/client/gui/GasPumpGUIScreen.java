@@ -36,7 +36,7 @@ public class GasPumpGUIScreen extends AbstractContainerScreen<GasPumpGUIMenu> {
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("aidens_technology:textures/screens/gas_pump_gui.png");
+	private static final ResourceLocation texture = ResourceLocation.parse("aidens_technology:textures/screens/gas_pump_gui.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
