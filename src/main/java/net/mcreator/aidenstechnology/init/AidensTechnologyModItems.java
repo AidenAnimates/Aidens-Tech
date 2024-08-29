@@ -25,6 +25,8 @@ import net.mcreator.aidenstechnology.item.RawLeadItem;
 import net.mcreator.aidenstechnology.item.OilItem;
 import net.mcreator.aidenstechnology.item.NosinBulletItemItem;
 import net.mcreator.aidenstechnology.item.MosinNagantItem;
+import net.mcreator.aidenstechnology.item.M1911Item;
+import net.mcreator.aidenstechnology.item.M1911BulletItemItem;
 import net.mcreator.aidenstechnology.item.M16Item;
 import net.mcreator.aidenstechnology.item.M16BulletItemItem;
 import net.mcreator.aidenstechnology.item.LeatherBackpackItem;
@@ -55,6 +57,8 @@ public class AidensTechnologyModItems {
 	public static final DeferredItem<Item> GAS_PUMP = block(AidensTechnologyModBlocks.GAS_PUMP);
 	public static final DeferredItem<Item> LEATHER_BACKPACK = REGISTRY.register("leather_backpack", LeatherBackpackItem::new);
 	public static final DeferredItem<Item> REINFORCED_BACKPACK = REGISTRY.register("reinforced_backpack", ReinforcedBackpackItem::new);
+	public static final DeferredItem<Item> M_1911 = REGISTRY.register("m_1911", M1911Item::new);
+	public static final DeferredItem<Item> M_1911_BULLET_ITEM = REGISTRY.register("m_1911_bullet_item", M1911BulletItemItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

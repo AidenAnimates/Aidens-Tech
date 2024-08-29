@@ -15,16 +15,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:LeadNugget"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.GUNPOWDER"
+        "value": "CUSTOM:LeadIngot"
       },
       {
         "value": ""
@@ -36,7 +27,16 @@
         "value": "Items.COPPER_INGOT"
       },
       {
-        "value": ""
+        "value": "CUSTOM:SteelDust"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
+      },
+      {
+        "value": "Items.IRON_NUGGET"
       }
     ],
     "recipeReturnStack": {

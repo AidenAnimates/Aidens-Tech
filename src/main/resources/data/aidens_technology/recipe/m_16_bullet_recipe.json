@@ -2,18 +2,21 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "a",
-    "b",
-    "c"
+    "aaa",
+    "bbb",
+    "cdc"
   ],
   "key": {
     "a": {
       "item": "aidens_technology:lead_nugget"
     },
     "b": {
-      "item": "aidens_technology:copper_nugget"
+      "item": "minecraft:copper_ingot"
     },
     "c": {
+      "item": "minecraft:iron_nugget"
+    },
+    "d": {
       "item": "minecraft:gunpowder"
     }
   },

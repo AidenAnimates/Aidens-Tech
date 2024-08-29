@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "a "
+  ],
+  "key": {
+    "a": {
+      "item": "aidens_technology:steel_ingot"
+    }
+  },
+  "result": {
+    "id": "aidens_technology:m_1911",
+    "count": 1
+  }
+}

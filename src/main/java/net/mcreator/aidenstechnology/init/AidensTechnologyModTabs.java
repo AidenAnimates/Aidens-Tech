@@ -24,6 +24,7 @@ public class AidensTechnologyModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(AidensTechnologyModItems.MOSIN_NAGANT.get());
 			tabData.accept(AidensTechnologyModItems.M_16.get());
+			tabData.accept(AidensTechnologyModItems.M_1911.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(AidensTechnologyModItems.STEEL_INGOT.get());
 			tabData.accept(AidensTechnologyModItems.STEEL_DUST.get());
@@ -39,6 +40,7 @@ public class AidensTechnologyModTabs {
 			tabData.accept(AidensTechnologyModBlocks.GAS_PUMP.get().asItem());
 			tabData.accept(AidensTechnologyModItems.LEATHER_BACKPACK.get());
 			tabData.accept(AidensTechnologyModItems.REINFORCED_BACKPACK.get());
+			tabData.accept(AidensTechnologyModItems.M_1911_BULLET_ITEM.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(AidensTechnologyModBlocks.LEAD_ORE.get().asItem());
 		}

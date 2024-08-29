@@ -1,0 +1,19 @@
+{
+  "_fv": 69,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:M1911BulletItem"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "entity.enderdragon_fireball.explode"
+    },
+    "igniteFire": false,
+    "power": 3.0,
+    "damage": 5.0,
+    "knockback": 0,
+    "entityModel": "Default",
+    "customModelTexture": ""
+  }
+}

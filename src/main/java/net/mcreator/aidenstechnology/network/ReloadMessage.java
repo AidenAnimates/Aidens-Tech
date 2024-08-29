@@ -52,7 +52,7 @@ public record ReloadMessage(int eventType, int pressedms) implements CustomPacke
 			return;
 		if (type == 0) {
 
-			ReloadOnKeyPressedProcedure.execute(world, entity);
+			ReloadOnKeyPressedProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

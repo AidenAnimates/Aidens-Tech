@@ -224,6 +224,18 @@
             "type": "entity"
           },
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -714,6 +726,73 @@
         ]
       },
       "path": "~/Backpacks/Reinforced"
+    },
+    {
+      "name": "M1911",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_1911",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aidens_technology/models/item/m_1911.json",
+          "src/main/java/net/mcreator/aidenstechnology/item/M1911Item.java"
+        ]
+      },
+      "path": "~/Guns/M1911"
+    },
+    {
+      "name": "M1911BulletItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_1911_bullet_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aidenstechnology/item/M1911BulletItemItem.java",
+          "src/main/resources/assets/aidens_technology/models/item/m_1911_bullet_item.json"
+        ]
+      },
+      "path": "~/Guns/M1911"
+    },
+    {
+      "name": "M1911Bullet",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_1911_bullet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aidenstechnology/entity/M1911BulletEntity.java"
+        ]
+      },
+      "path": "~/Guns/M1911"
+    },
+    {
+      "name": "M1911Recipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_1911_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aidens_technology/recipe/m_1911_recipe.json"
+        ]
+      },
+      "path": "~/Guns/M1911"
+    },
+    {
+      "name": "M1911BulletRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_1911_bullet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aidens_technology/recipe/m_1911_bullet_recipe.json"
+        ]
+      },
+      "path": "~/Guns/M1911"
     }
   ],
   "variable_elements": [],
@@ -736,6 +815,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.aidens_technology.m_1911_bullet_item": ".45 ACP",
       "item.aidens_technology.reinforced_backpack": "Reinforced Backpack",
       "item.aidens_technology.raw_lead": "Raw Lead",
       "item.aidens_technology.copper_nugget": "Copper Nugget",
@@ -752,6 +832,7 @@
       "gui.aidens_technology.reinforced_backpack_gui.label_backpack": "Backpack",
       "item.aidens_technology.fuel_can": "Fuel Can",
       "item.anims_technology.steel_dust": "Steel Dust",
+      "item.aidens_technology.m_1911": "M1911",
       "item.anims_technology.steel_ingot": "Steel Ingot",
       "item.aidens_technology.lead_ingot": "Lead Ingot",
       "key.anims_technology.reload": "Reload",
@@ -788,6 +869,10 @@
           },
           {
             "name": "M16",
+            "children": []
+          },
+          {
+            "name": "M1911",
             "children": []
           }
         ]

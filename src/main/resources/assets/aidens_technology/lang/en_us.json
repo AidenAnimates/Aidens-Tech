@@ -1,4 +1,5 @@
 {
+  "item.aidens_technology.m_1911_bullet_item": ".45 ACP",
   "item.aidens_technology.reinforced_backpack": "Reinforced Backpack",
   "item.aidens_technology.raw_lead": "Raw Lead",
   "item.aidens_technology.copper_nugget": "Copper Nugget",
@@ -15,6 +16,7 @@
   "gui.aidens_technology.reinforced_backpack_gui.label_backpack": "Backpack",
   "item.aidens_technology.fuel_can": "Fuel Can",
   "item.anims_technology.steel_dust": "Steel Dust",
+  "item.aidens_technology.m_1911": "M1911",
   "item.anims_technology.steel_ingot": "Steel Ingot",
   "item.aidens_technology.lead_ingot": "Lead Ingot",
   "key.anims_technology.reload": "Reload",

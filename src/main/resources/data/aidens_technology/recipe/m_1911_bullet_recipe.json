@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "aidens_technology:lead_nugget"
+    },
+    "b": {
+      "item": "aidens_technology:copper_nugget"
+    },
+    "c": {
+      "item": "aidens_technology:steel_dust"
+    },
+    "d": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "id": "aidens_technology:m_16_bullet_item",
+    "count": 1
+  }
+}

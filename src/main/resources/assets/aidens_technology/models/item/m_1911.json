@@ -1,0 +1,7 @@
+{
+  "parent": "aidens_technology:custom/m1911",
+  "textures": {
+    "1": "aidens_technology:block/m1911",
+    "particle": "aidens_technology:item/mosin_missing_model"
+  }
+}

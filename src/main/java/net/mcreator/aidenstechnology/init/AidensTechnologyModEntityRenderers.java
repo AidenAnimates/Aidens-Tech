@@ -17,5 +17,6 @@ public class AidensTechnologyModEntityRenderers {
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(AidensTechnologyModEntities.NOSINBULLET.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(AidensTechnologyModEntities.M_16_BULLET.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(AidensTechnologyModEntities.M_1911_BULLET.get(), ThrownItemRenderer::new);
 	}
 }
