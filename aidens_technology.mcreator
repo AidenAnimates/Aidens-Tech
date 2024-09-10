@@ -793,6 +793,160 @@
         ]
       },
       "path": "~/Guns/M1911"
+    },
+    {
+      "name": "Record",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "record",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aidens_technology/models/item/record.json",
+          "src/main/java/net/mcreator/aidenstechnology/item/RecordItem.java"
+        ]
+      },
+      "path": "~/Machines/Records"
+    },
+    {
+      "name": "Recorder",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recorder",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aidens_technology/loot_table/blocks/recorder.json",
+          "src/main/resources/assets/aidens_technology/models/item/recorder.json",
+          "src/main/java/net/mcreator/aidenstechnology/block/RecorderBlock.java",
+          "src/main/resources/assets/aidens_technology/blockstates/recorder.json",
+          "src/main/resources/assets/aidens_technology/models/block/recorder.json",
+          "src/main/java/net/mcreator/aidenstechnology/block/entity/RecorderBlockEntity.java"
+        ]
+      },
+      "path": "~/Machines/Records"
+    },
+    {
+      "name": "RecorderWrite",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recorder_write",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aidenstechnology/procedures/RecorderWriteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Machines/Records"
+    },
+    {
+      "name": "RecorderGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recorder_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aidenstechnology/world/inventory/RecorderGUIMenu.java",
+          "src/main/java/net/mcreator/aidenstechnology/client/gui/RecorderGUIScreen.java",
+          "src/main/java/net/mcreator/aidenstechnology/network/RecorderGUIButtonMessage.java"
+        ]
+      },
+      "path": "~/Machines/Records"
+    },
+    {
+      "name": "RecordPlayer",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "record_player",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aidens_technology/loot_table/blocks/record_player.json",
+          "src/main/java/net/mcreator/aidenstechnology/block/RecordPlayerBlock.java",
+          "src/main/java/net/mcreator/aidenstechnology/block/entity/RecordPlayerBlockEntity.java",
+          "src/main/resources/assets/aidens_technology/models/block/record_player.json",
+          "src/main/resources/assets/aidens_technology/models/item/record_player.json",
+          "src/main/resources/assets/aidens_technology/blockstates/record_player.json"
+        ]
+      },
+      "path": "~/Machines/Records"
+    },
+    {
+      "name": "RecordPlay",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "record_play",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aidenstechnology/world/inventory/RecordPlayMenu.java",
+          "src/main/java/net/mcreator/aidenstechnology/network/RecordPlayButtonMessage.java",
+          "src/main/java/net/mcreator/aidenstechnology/client/gui/RecordPlayScreen.java"
+        ]
+      },
+      "path": "~/Machines/Records"
+    },
+    {
+      "name": "ProPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pro_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/aidenstechnology/procedures/ProPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Machines/Records"
     }
   ],
   "variable_elements": [],
@@ -827,12 +981,18 @@
       "item.anims_technology.nosin_bullet_item": "7.62x54mmR",
       "item.anims_technology.raw_lead": "Raw Lead",
       "block.aidens_technology.gas_pump": "Gas Pump",
+      "gui.aidens_technology.recorder_gui.RecordedText": "Type notes...",
       "item.aidens_technology.m_16": "M16",
       "item.aidens_technology.oil_bucket": "Oil Bucket",
       "gui.aidens_technology.reinforced_backpack_gui.label_backpack": "Backpack",
       "item.aidens_technology.fuel_can": "Fuel Can",
+      "gui.aidens_technology.recorder_gui.label_recorder": "Recorder",
+      "gui.aidens_technology.record_play.label_record_player": "Record Player",
+      "block.aidens_technology.record_player": "Record Player",
       "item.anims_technology.steel_dust": "Steel Dust",
+      "gui.aidens_technology.recorder_gui.button_write": "Write",
       "item.aidens_technology.m_1911": "M1911",
+      "block.aidens_technology.recorder": "Recorder",
       "item.anims_technology.steel_ingot": "Steel Ingot",
       "item.aidens_technology.lead_ingot": "Lead Ingot",
       "key.anims_technology.reload": "Reload",
@@ -848,7 +1008,9 @@
       "key.aidens_technology.jetpack_use": "Jetpack Use",
       "item.anims_technology.lead_ingot": "Lead Ingot",
       "item.aidens_technology.nosin_bullet_item": "7.62x54mmR",
+      "item.aidens_technology.record": "Vinyl Record",
       "item.aidens_technology.m_16_bullet_item": "5.56x45mm NATO",
+      "gui.aidens_technology.record_play.button_play": "Play",
       "item.aidens_technology.mosin_nagant": "Mosin-Nagant",
       "item.aidens_technology.lead_nugget": "Lead Nugget"
     }
@@ -891,6 +1053,10 @@
           {
             "name": "Gas Pump",
             "children": []
+          },
+          {
+            "name": "Records",
+            "children": []
           }
         ]
       },
@@ -912,12 +1078,13 @@
   "workspaceSettings": {
     "modid": "aidens_technology",
     "modName": "Aiden\u0027s Tech",
-    "version": "1.1.1A",
+    "version": "1.3.0A",
     "description": "Guns n\u0027 stuff, man.",
     "author": "aidenanimates",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://modrinth.com/mod/aidens-tech",
     "license": "GNU General Public License version 3 (GPLv3)",
     "serverSideOnly": false,
+    "modPicture": "hammer",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

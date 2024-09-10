@@ -9,6 +9,8 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.aidenstechnology.block.RecorderBlock;
+import net.mcreator.aidenstechnology.block.RecordPlayerBlock;
 import net.mcreator.aidenstechnology.block.OilBlock;
 import net.mcreator.aidenstechnology.block.LeadOreBlock;
 import net.mcreator.aidenstechnology.block.GasPumpBlock;
@@ -19,6 +21,8 @@ public class AidensTechnologyModBlocks {
 	public static final DeferredBlock<Block> LEAD_ORE = REGISTRY.register("lead_ore", LeadOreBlock::new);
 	public static final DeferredBlock<Block> OIL = REGISTRY.register("oil", OilBlock::new);
 	public static final DeferredBlock<Block> GAS_PUMP = REGISTRY.register("gas_pump", GasPumpBlock::new);
+	public static final DeferredBlock<Block> RECORDER = REGISTRY.register("recorder", RecorderBlock::new);
+	public static final DeferredBlock<Block> RECORD_PLAYER = REGISTRY.register("record_player", RecordPlayerBlock::new);
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

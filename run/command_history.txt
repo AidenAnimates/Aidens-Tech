@@ -1,0 +1,3 @@
+/give Dev aidens_technology:recorder
+/give Dev aidens_technology:record
+/data get entity Dev SelectedItem

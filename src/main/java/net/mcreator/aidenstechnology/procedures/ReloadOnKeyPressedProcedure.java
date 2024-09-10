@@ -91,7 +91,7 @@ public class ReloadOnKeyPressedProcedure {
 						}
 						{
 							final String _tagName = "ammo";
-							final double _tagValue = 15;
+							final double _tagValue = 10;
 							CustomData.update(DataComponents.CUSTOM_DATA, (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY), tag -> tag.putDouble(_tagName, _tagValue));
 						}
 						if (world instanceof Level _level) {

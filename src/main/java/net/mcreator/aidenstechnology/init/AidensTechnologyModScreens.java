@@ -10,6 +10,8 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.api.distmarker.Dist;
 
 import net.mcreator.aidenstechnology.client.gui.ReinforcedBackpackGUIScreen;
+import net.mcreator.aidenstechnology.client.gui.RecorderGUIScreen;
+import net.mcreator.aidenstechnology.client.gui.RecordPlayScreen;
 import net.mcreator.aidenstechnology.client.gui.LeatherBackpackGUIScreen;
 import net.mcreator.aidenstechnology.client.gui.GasPumpGUIScreen;
 
@@ -20,5 +22,7 @@ public class AidensTechnologyModScreens {
 		event.register(AidensTechnologyModMenus.GAS_PUMP_GUI.get(), GasPumpGUIScreen::new);
 		event.register(AidensTechnologyModMenus.LEATHER_BACKPACK_GUI.get(), LeatherBackpackGUIScreen::new);
 		event.register(AidensTechnologyModMenus.REINFORCED_BACKPACK_GUI.get(), ReinforcedBackpackGUIScreen::new);
+		event.register(AidensTechnologyModMenus.RECORDER_GUI.get(), RecorderGUIScreen::new);
+		event.register(AidensTechnologyModMenus.RECORD_PLAY.get(), RecordPlayScreen::new);
 	}
 }

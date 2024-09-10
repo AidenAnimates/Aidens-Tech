@@ -21,6 +21,7 @@ import net.mcreator.aidenstechnology.item.inventory.LeatherBackpackInventoryCapa
 import net.mcreator.aidenstechnology.item.SteelIngotItem;
 import net.mcreator.aidenstechnology.item.SteelDustItem;
 import net.mcreator.aidenstechnology.item.ReinforcedBackpackItem;
+import net.mcreator.aidenstechnology.item.RecordItem;
 import net.mcreator.aidenstechnology.item.RawLeadItem;
 import net.mcreator.aidenstechnology.item.OilItem;
 import net.mcreator.aidenstechnology.item.NosinBulletItemItem;
@@ -59,6 +60,9 @@ public class AidensTechnologyModItems {
 	public static final DeferredItem<Item> REINFORCED_BACKPACK = REGISTRY.register("reinforced_backpack", ReinforcedBackpackItem::new);
 	public static final DeferredItem<Item> M_1911 = REGISTRY.register("m_1911", M1911Item::new);
 	public static final DeferredItem<Item> M_1911_BULLET_ITEM = REGISTRY.register("m_1911_bullet_item", M1911BulletItemItem::new);
+	public static final DeferredItem<Item> RECORD = REGISTRY.register("record", RecordItem::new);
+	public static final DeferredItem<Item> RECORDER = block(AidensTechnologyModBlocks.RECORDER);
+	public static final DeferredItem<Item> RECORD_PLAYER = block(AidensTechnologyModBlocks.RECORD_PLAYER);
 
 	// Start of user code block custom items
 	// End of user code block custom items

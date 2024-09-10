@@ -1,0 +1,11 @@
+{
+  "parent": "aidens_technology:custom/model2",
+  "textures": {
+    "all": "aidens_technology:block/baserecplr",
+    "particle": "aidens_technology:block/baserecplr",
+    "0": "aidens_technology:block/baserecplr",
+    "1": "aidens_technology:block/stylusrec",
+    "2": "aidens_technology:block/knobrec"
+  },
+  "render_type": "solid"
+}

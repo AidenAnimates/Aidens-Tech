@@ -21,7 +21,10 @@ public class AidensTechnologyModTabs {
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+		if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+			tabData.accept(AidensTechnologyModBlocks.RECORDER.get().asItem());
+			tabData.accept(AidensTechnologyModBlocks.RECORD_PLAYER.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(AidensTechnologyModItems.MOSIN_NAGANT.get());
 			tabData.accept(AidensTechnologyModItems.M_16.get());
 			tabData.accept(AidensTechnologyModItems.M_1911.get());

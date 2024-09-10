@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "aidens_technology:block/recorder"
+    },
+    "facing=east": {
+      "model": "aidens_technology:block/recorder",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "aidens_technology:block/recorder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "aidens_technology:block/recorder",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "baserec",
+        "1": "stylusrec",
+        "2": "knobrec"
+      },
+      "name": "default"
+    }
+  }
+}
